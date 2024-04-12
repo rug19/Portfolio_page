@@ -1,0 +1,18 @@
+:root {
+
+    /* Colors */
+    --Midnight-Blue: #021024;
+    --Dark-Sapphire-Blue: #052659;
+    --Teal-Blue: #548383;
+    --Light-Blue: #7da0ca;
+    --Baby-Blue: #c1e8ff;
+    
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
