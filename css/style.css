@@ -95,6 +95,18 @@ img {
   width: 26rem;
   height: 26rem;
   border-radius: 22rem;
+  position: relative;
+  z-index: 2;
+}
+
+.background-ball{
+  background: url(../img/blob.svg) no-repeat;
+  position: absolute;
+  width: 37rem;
+  height: 38rem;
+  left: 52rem;
+  top: 8rem;
+  z-index: 1;
 }
 
 .background-wave-top {
