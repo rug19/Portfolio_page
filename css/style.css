@@ -122,6 +122,7 @@ header {
   background: url(../img/top.svg) no-repeat;
   background-size: cover;
   height: 16rem;
+  margin-top: -6rem;
 }
 
 .background-wave-bottom {
