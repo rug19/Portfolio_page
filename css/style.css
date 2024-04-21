@@ -76,7 +76,7 @@ header {
 .title-container button {
   font-family: "Space Grotesk";
   color: white;
-  margin-top: 4rem;
+  margin-top: 2rem;
   border: solid 1px var(--Light-Pink);
   border-radius: 1rem;
   width: 8rem;
@@ -101,8 +101,8 @@ header {
 }
 
 .main-container img {
-  width: 26rem;
-  height: 26rem;
+  width: 23rem;
+  height: 23rem;
   border-radius: 22rem;
   position: relative;
   z-index: 2;
