@@ -162,7 +162,7 @@ header {
   border-radius: 10px;
 }
 
-span {
+.container-skills span {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -230,13 +230,6 @@ span {
 .ctn-social:nth-child(8) span {
   background: #7012f0;
 }
-
-.about-container {
-  min-height: 100vh;
-  height: 13rem;
-  margin-top: 1rem;
-}
-
 .about-title {
   text-align: center;
   font-family: "Space Grotesk";
@@ -256,32 +249,54 @@ span {
   padding: 2rem;
   margin: 0rem 12rem;
   align-items: center;
-  
 }
 
-.text-about  {
+.text-about {
   color: white;
   font-family: "Space Grotesk";
 }
 
-.text-about p  {
+.text-about p {
   color: white;
   margin: 20px 0;
   text-align: justify;
-  
 }
 
 .text-about h2 {
   font-size: 40px;
   line-height: 40px;
-  margin-bottom: 4rem;
-
 }
 
-
-.text-about h2 span{
+.text-about h2 span {
   color: orange;
   display: block;
-  margin-bottom: 1rem;
-  
+  margin: 0px;
+}
+
+.project-container {
+  min-height: 100vh;
+  height: 13rem;
+  margin-top: 4rem;
+}
+
+.project-container h2 {
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 3rem;
+  font-weight: 700;
+  color: orange;
+  margin-bottom: 5rem;
+}
+
+.project-interface {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-interface div {
+  width: 29rem;
+  height: 30rem;
+  background-color: orange;
+  border-radius: 1rem;
 }
