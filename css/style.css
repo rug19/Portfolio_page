@@ -128,7 +128,7 @@ header {
 .background-wave-bottom {
   background: url(../img/bottom.svg) no-repeat;
   background-size: cover;
-  height: 25rem;
+  height: 27rem;
 }
 
 .skills-subTitle {
@@ -286,7 +286,7 @@ header {
   font-size: 3rem;
   font-weight: 700;
   color: orange;
-  margin-bottom: 5rem;
+  margin: 8rem 0rem;
 }
 
 .project-interface {
@@ -300,4 +300,11 @@ header {
   height: 30rem;
   background-color: orange;
   border-radius: 1rem;
+}
+
+.footer-container {
+  height: 28rem;
+ background-color:#ffb000 ;
+
+
 }
