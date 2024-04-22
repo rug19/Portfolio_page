@@ -71,6 +71,7 @@ header {
   font-family: "Space Grotesk";
   color: white;
   font-weight: 700;
+  text-align: justify;
 }
 
 .title-container button {
@@ -241,6 +242,7 @@ header {
 
 .about-container img {
   width: 300px;
+  height: 460px;
   border-radius: 1rem;
 }
 
