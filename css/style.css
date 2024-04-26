@@ -129,7 +129,7 @@ header {
 .background-wave-bottom {
   background: url(../img/bottom.svg) no-repeat;
   background-size: cover;
-  height: 21rem;
+  height: 23rem;
 }
 
 .skills-subTitle {
@@ -142,7 +142,7 @@ header {
 }
 
 .container-skills {
-  height: 13rem;
+  height: 10rem;
   background-color: #ffb000;
 }
 
