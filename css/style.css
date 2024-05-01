@@ -120,8 +120,6 @@ header {
   }
 }
 
-
-
 .background-wave-top {
   background: url(../img/top.svg) no-repeat;
   background-size: cover;
@@ -241,7 +239,7 @@ header {
   font-weight: 700;
   color: orange;
 }
-.about-container{
+.about-container {
   padding: 1rem;
 }
 .about-container img {
@@ -249,7 +247,6 @@ header {
   height: 460px;
   border-radius: 1rem;
   margin: 4rem;
-  
 }
 
 .sub-about-container {
@@ -296,7 +293,6 @@ header {
   font-weight: 700;
   color: orange;
   margin-bottom: 4rem;
-  
 }
 
 .project-interface {
@@ -312,30 +308,27 @@ header {
   border-radius: 1rem;
 }
 
-.footer-container {
-
-height: 15rem;
-background-color:#ffb000 ;
-}
-
-
 /* Footer */
-footer {
-  position: relative;
-  width: 100%;
-  background: #ffb000;
-  height: 15rem;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.footer-container {
+ 
+  height: 24rem;
+  background-color: #ffb000;
 }
 
+
+.footer-container h2 {
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--Midnight-Blue);
+}
+
+.footer-container span{
+color: white;
+}
 .waves {
   background: url(../img/top.svg) no-repeat;
   background-size: cover;
   height: 16rem;
-
 }
-
