@@ -448,12 +448,12 @@ textarea {
   /* My skills */
   .background-wave-top {
     background-size: cover;
-    height: 3rem;
+    height: 8rem;
   }
 
   .container-skills {
-    height: 25rem;
-    padding: 3rem;
+    height: 26rem;
+
   }
 
   .skills-subTitle {
@@ -508,7 +508,7 @@ textarea {
   /* footer */
   .waves {
     margin-top: 10rem;
-    height: 3rem;
+    height: 4rem;
   }
   .footer-container {
     height: 50rem;
