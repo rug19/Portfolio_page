@@ -406,7 +406,7 @@ textarea {
   padding: 0.5rem;
 }
 
-@media screen and (max-width: 414px) {
+@media (max-width: 414px) {
   /* Header */
   .nav-container {
     display: none;
