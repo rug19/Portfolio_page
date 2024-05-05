@@ -408,6 +408,12 @@ textarea {
 
 @media (max-width: 414px) {
   /* Header */
+
+  header {
+    padding: 2rem 6rem 3rem 6rem;
+    align-items: center;
+    justify-content: center;
+  }
   .nav-container {
     display: none;
   }
@@ -419,6 +425,9 @@ textarea {
   .title-container {
     margin: 0rem;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .title-container h1 {
@@ -433,17 +442,18 @@ textarea {
   }
 
   .title-container button {
-    margin-left: 7rem;
+    margin-bottom: 4rem;
   }
 
   /* My skills */
   .background-wave-top {
     background-size: cover;
-    height: 11rem;
+    height: 3rem;
   }
 
   .container-skills {
     height: 25rem;
+    padding: 3rem;
   }
 
   .skills-subTitle {
@@ -498,14 +508,15 @@ textarea {
   /* footer */
   .waves {
     margin-top: 10rem;
-    height: 4rem;
+    height: 3rem;
   }
   .footer-container {
-    height: 47rem;
+    height: 50rem;
   }
   .footer-container h2 {
     margin: 0rem 0rem 2rem 0rem;
     text-align: center;
+    padding-top: 3rem;
   }
 
   .sub-footer-container {
