@@ -16,25 +16,18 @@
   <body>
     <header id="home">
       <h2 class="sub-title">ruanGomes.</h2>
-      <ul class="icons-container">
-      <li>
-         <a href="#About">About</a>
-      </li>
-      <li>
-         <a href="#Projects">Projects</a>
-      </li>
-      <li>
+      <nav class="nav-container">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
-      </li>
-      <li>
         <a href="#Skills">Skills</a>
-      </li>
-      </ul>
-      <div>
+      </nav>
+      <!-- <div>
         <a href="https://github.com/rug19" target="_blank">
           <i class="fa-brands fa-github fa-2xl" style="color: white"></i>
         </a>
-        </div>
+        </div> -->
     </header>
     <!-- Main container -->
     <main class="main-container">
@@ -43,7 +36,7 @@
         <div class="title-container">
           <h1>
             Nice to meet you!<br />
-            I'm Ruan Gomes.
+            I'm <span>Ruan Gomes.</span>
           </h1>
           <p>
             "I'm a passionate full-stack developer dedicated to crafting comprehensive 
@@ -189,10 +182,9 @@
     <!-- Footer -->
     <div class="waves"></div>
     <footer id="Contact" class="footer-container">
-      <h2>ruanGomes</h2>
+      <h2>ruanGomes.</h2>
     <div class="sub-footer-container">
       <div class="contact-container">
-        
         <p>"Let's embark on a journey of collaboration, where our combined expertise, creativity, 
           <br/>and dedication merge to create impactful results, fostering mutual growth and success.</p>
         <a href="">rugcosta1234@gmail.com</a>
@@ -208,7 +200,7 @@
         <label for="name"></label>
         <input id="email" type="email" placeholder="Email" required >
         <label for="email"></label>
-        <textarea id="text" placeholder="Message"></textarea>
+        <textarea id="text" placeholder="Message" required></textarea>
         <label for="text"></label>
         <button>Send Message</button>
       </div>
@@ -216,5 +208,6 @@
       <p>&copy;2024 Ruan Gomes | All Rights Reserved</p>
     </footer>
     <div class="background-wave-footer"></div>
+    <script src="./script.js"></script>
   </body>
 </html>

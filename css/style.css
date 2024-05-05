@@ -35,18 +35,26 @@ header {
   font-size: 2rem;
 }
 
-.icons-container {
+.nav-container {
   display: flex;
   justify-content: center;
   gap: 2rem;
   list-style: none;
 }
 
-.icons-container a {
+.nav-container a {
   font-family: "Space Grotesk";
   text-decoration: none;
   color: white;
   font-weight: 500;
+  transition: 0.35 ease;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-container a:hover,
+.nav-container a.active {
+  color: orange;
+  border-bottom: 3px solid orange;
 }
 .main-container {
   display: flex;
@@ -313,7 +321,7 @@ header {
   background-color: #ffb000;
 }
 
-.footer-container h2  {
+.footer-container h2 {
   font-family: "Space Grotesk";
   font-size: 2.5rem;
   font-weight: 700;
@@ -390,6 +398,120 @@ header {
   text-align: center;
   margin-top: 3rem;
   font-family: "Space Grotesk";
+}
 
- 
+.message-container input,
+textarea {
+  font-family: "Space Grotesk";
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  /* Header */
+  .nav-container {
+    display: none;
+  }
+
+  .main-container {
+    flex-direction: column-reverse;
+  }
+
+  .title-container {
+    margin: 0rem;
+    padding: 1rem;
+  }
+
+  .title-container h1 {
+    font-size: 36px;
+    line-height: 1rem;
+    text-align: center;
+  }
+
+  .title-container p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .title-container button {
+    margin-left: 7rem;
+  }
+
+  /* My skills */
+  .background-wave-top {
+    background-size: cover;
+    height: 11rem;
+  }
+
+  .container-skills {
+    height: 25rem;
+  }
+
+  .skills-subTitle {
+    font-size: 2rem;
+  }
+
+  .container-icons {
+    flex-wrap: wrap;
+  }
+
+  .background-wave-bottom {
+    height: 12rem;
+  }
+  /* About ,me */
+
+  .sub-about-container {
+    flex-direction: column;
+    margin: 0rem;
+    padding: 1rem;
+  }
+
+  .sub-about-container img {
+    display: none;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .text-about h2 {
+    font-size: 2rem;
+  }
+
+  /* Project */
+  .project-container {
+    padding: 1rem;
+  }
+  .project-container h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .project-interface {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .project-interface div {
+    width: 20rem;
+    height: 15rem;
+  }
+
+  /* footer */
+  .waves {
+    margin-top: 10rem;
+    height: 4rem;
+  }
+  .footer-container {
+    height: 47rem;
+  }
+  .footer-container h2 {
+    margin: 0rem 0rem 2rem 0rem;
+    text-align: center;
+  }
+
+  .sub-footer-container {
+    flex-direction: column-reverse;
+    margin-left: 0rem;
+    padding: 1rem;
+    gap: 3rem;
+  }
 }
