@@ -282,7 +282,6 @@ header {
 .project-container {
   min-height: 100vh;
   height: 13rem;
-  margin-top: 4rem;
   padding: 3rem;
 }
 
@@ -310,25 +309,87 @@ header {
 
 /* Footer */
 .footer-container {
- 
-  height: 24rem;
+  height: 27rem;
   background-color: #ffb000;
 }
 
-
-.footer-container h2 {
-  text-align: center;
+.footer-container h2  {
   font-family: "Space Grotesk";
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--Midnight-Blue);
+  margin: 0rem 0rem 2rem 8rem;
 }
 
-.footer-container span{
-color: white;
-}
 .waves {
   background: url(../img/top.svg) no-repeat;
   background-size: cover;
   height: 16rem;
+}
+
+.sub-footer-container {
+  display: flex;
+  gap: 8rem;
+  font-family: "Space Grotesk";
+  color: var(--Midnight-Blue);
+  font-weight: 700;
+  margin-left: 8rem;
+}
+
+.sub-footer-container a {
+  color: white;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.message-container input {
+  border: none;
+  border-radius: 0.2rem;
+  width: 22rem;
+  height: 3rem;
+}
+
+.message-container textarea {
+  border: none;
+  border-radius: 0.2rem;
+  width: 22rem;
+  height: 5rem;
+}
+
+.message-container button {
+  font-family: "Space Grotesk";
+  color: white;
+  margin-top: 1rem;
+  border: solid 1px var(--Light-Pink);
+  border-radius: 0.2rem;
+  width: 8rem;
+  height: 2.3rem;
+  cursor: pointer;
+  box-shadow: 0px 0px 9px 0px var(--Midnight-Blue);
+  transition: 0.3s;
+  background-color: var(--Midnight-Blue);
+  font-weight: 800;
+}
+
+.footer-container p:last-child {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: "Space Grotesk";
+
+ 
 }

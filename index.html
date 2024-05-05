@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <header>
+    <header id="home">
       <h2 class="sub-title">ruanGomes.</h2>
       <ul class="icons-container">
       <li>
@@ -62,7 +62,7 @@
   <div class="main-container-skills" id="Skills">
     <div class="background-wave-top"></div>
       <div class="background-container">
-        <section class="container-skills">
+        <div class="container-skills">
           <h2 class="skills-subTitle"> My Skills</h2>
           <div class="container-icons">
           <!-- HTML -->
@@ -148,7 +148,7 @@
               <i class="fa-brands fa-bootstrap fa-2xl" style="color: #ffffff"></i>
             </span>
           </div>
-        </section>
+        </div>
       </div>
     <div class="background-wave-bottom"></div>
   </div>
@@ -188,22 +188,32 @@
     </section>
     <!-- Footer -->
     <div class="waves"></div>
-    <footer class="footer-container">
-      <h2>Contact - <span>Me</span></h2>
-      <div>
-        <p>Let's work together</p>
-        <p>
-          "Let's embark on a journey of collaboration, where our combined expertise, creativity, 
-          and dedication merge to create impactful results, fostering mutual growth and success."</p>
-      </div>
+    <footer id="Contact" class="footer-container">
+      <h2>ruanGomes</h2>
+    <div class="sub-footer-container">
+      <div class="contact-container">
+        
+        <p>"Let's embark on a journey of collaboration, where our combined expertise, creativity, 
+          <br/>and dedication merge to create impactful results, fostering mutual growth and success.</p>
+        <a href="">rugcosta1234@gmail.com</a>
+        <a href="">+55 85 991963095</a>
       <ul class="footer-icons">
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+        <li><a href=""><i class="fa-brands fa-square-instagram fa-2xl" style="color: #021024;"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-linkedin fa-2xl" style="color: #021024;" ></i></a></li>
+        <li><a href=""><i class="fa-brands fa-square-github fa-2xl" style="color: #021024;"></i></a></li>
       </ul>
-      <div></div>
-      <!-- <p>&copy;2024 Ruan Gomes | All Rights Reserved</p> -->
+    </div>
+      <div class="message-container">
+        <input id="name" type="text" placeholder="Name" requered>
+        <label for="name"></label>
+        <input id="email" type="email" placeholder="Email" required >
+        <label for="email"></label>
+        <textarea id="text" placeholder="Message"></textarea>
+        <label for="text"></label>
+        <button>Send Message</button>
+      </div>
+    </div>
+      <p>&copy;2024 Ruan Gomes | All Rights Reserved</p>
     </footer>
     <div class="background-wave-footer"></div>
   </body>
