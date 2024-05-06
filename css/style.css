@@ -408,7 +408,6 @@ textarea {
 
 @media (max-width: 414px) {
   /* Header */
-
   header {
     padding: 2rem 6rem 3rem 6rem;
     align-items: center;
@@ -453,7 +452,6 @@ textarea {
 
   .container-skills {
     height: 26rem;
-
   }
 
   .skills-subTitle {
@@ -497,7 +495,7 @@ textarea {
 
   .project-interface {
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
   }
 
   .project-interface div {
@@ -526,3 +524,76 @@ textarea {
     gap: 3rem;
   }
 }
+/* TO DO: Fazer layout para tablet */
+/* @media  (max-width: 1000px) {
+
+
+  .nav-container {
+    display: none;
+  }
+
+  
+
+  .title-container h1 {
+    margin-top: 2rem;
+  }
+
+  .title-container {
+    margin: 0rem;
+  }
+  .main-container {
+    flex-direction: column-reverse;
+  }
+
+  .container-icons {
+    flex-wrap: wrap-reverse;
+  }
+
+
+
+  .background-wave-top {
+    height: 8rem;
+  }
+
+
+  .sub-about-container {
+    flex-direction: column;
+    margin: 0rem;
+  }
+
+  .sub-about-container img {
+    display: none;
+  }
+
+  .project-interface {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .project-interface div {
+    width: 40rem;
+    height: 25rem;
+    background-color: orange;
+    border-radius: 1rem;
+  }
+
+
+  .waves {
+    margin-top: 33rem;
+    height: 9rem;
+  }
+
+  .sub-footer-container {
+    margin: 0rem;
+    gap: 3rem;
+    padding: 2rem;
+  }
+
+  .footer-container{
+    height: 30rem;
+  }
+
+  .footer-container h2 {
+    margin: 0rem 0rem 0rem 2rem;
+  }
+
