@@ -645,10 +645,48 @@ textarea {
   .message-container textarea {
     width: 70%;
   }
+}
 
-  @media (max-width: 1400px) {
-    /* Main */
+@media (min-width: 1400px) {
+  /* Main */
+  .main-container {
+    gap: 6rem;
+    margin-top: 3rem;
+  }
 
-    
+  /* My skills */
+  .container-skills {
+    padding: 1rem;
+    height: 5rem;
+  }
+
+  .background-wave-top {
+    height: 22.9rem;
+  }
+
+  .background-wave-bottom {
+    height: 26rem;
+  }
+
+  /* About */
+  .about-container {
+    padding: 5rem;
+  }
+
+  /* Project */
+  .project-interface {
+    padding-top: 5rem;
+  }
+
+  .project-container {
+    padding: 3rem 3rem 0rem 3rem;
+  }
+
+  .project-container h2 {
+    margin-bottom: 3rem;
+  }
+
+  .waves {
+    height: 19rem;
   }
 }
