@@ -325,9 +325,9 @@ header {
   font-size: 1.2rem;
   font-family: "Space Grotesk";
   color: white;
-  padding-top: 0.4rem;
+  padding-top: 0.9rem;
   padding-bottom: 1.5rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .project-icons {
@@ -528,12 +528,17 @@ textarea {
   .card {
     width: 80%;
     height: 15rem;
-    margin-bottom: 6rem;
+    margin-bottom: 6.5rem;
+  }
+
+  .card-title {
+    font-weight: 700;
+    padding-top: 0.9rem;
   }
 
   .overlay {
     position: absolute;
-    top: 20rem;
+    top: 21rem;
   }
 
   .overlay a {
@@ -648,6 +653,12 @@ textarea {
     height: 25rem;
     background-color: orange;
     border-radius: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .card-title {
+    padding-top: 0.9rem;
+    font-weight: 700;
   }
 
   .project-container {
@@ -656,6 +667,21 @@ textarea {
   .project-title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 31rem;
+  }
+
+  .overlay a {
+    color: white;
+    text-decoration: none;
+    font-family: "Space Grotesk";
+    font-weight: 400;
+    font-size: 1rem;
+    border-bottom: 3px solid orange;
+    margin-right: 1rem;
   }
 
   /* Footer */
