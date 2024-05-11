@@ -528,7 +528,7 @@ textarea {
   .card {
     width: 80%;
     height: 15rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 
   .overlay {
@@ -541,7 +541,7 @@ textarea {
     text-decoration: none;
     font-family: "Space Grotesk";
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-bottom: 3px solid orange;
     margin-right: 1rem;
   }
