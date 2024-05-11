@@ -647,7 +647,7 @@ textarea {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1445px) {
   /* Main */
   .main-container {
     gap: 6rem;
