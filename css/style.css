@@ -341,43 +341,6 @@ header {
   height: 100%;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 0.5rem;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.hidden-container:hover .overlay {
-  opacity: 1;
-  cursor: pointer;
-}
-
-.overlay a {
-  color: white;
-  text-decoration: none;
-  margin: 10px;
-  font-family: "Space Grotesk";
-  font-weight: 500;
-  transition: 0.35 ease;
-  border-bottom: 3px solid transparent;
-}
-
-.overlay a:hover ,
-.overlay a.active {
-  color: orange;
-  border-bottom: 3px solid orange;
-}
-
 /* Footer */
 .footer-container {
   height: 29rem;
@@ -565,6 +528,22 @@ textarea {
   .card {
     width: 80%;
     height: 15rem;
+    margin-bottom: 5rem;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 20rem;
+  }
+
+  .overlay a {
+    color: white;
+    text-decoration: none;
+    font-family: "Space Grotesk";
+    font-weight: 400;
+    font-size: 1.2rem;
+    border-bottom: 3px solid orange;
+    margin-right: 1rem;
   }
 
   /* footer */
@@ -756,6 +735,43 @@ textarea {
   .project-title {
     padding-top: 5rem;
   }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hidden-container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .overlay a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    transition: 0.35 ease;
+    border-bottom: 3px solid transparent;
+  }
+
+  .overlay a:hover,
+  .overlay a.active {
+    color: orange;
+    border-bottom: 3px solid orange;
+  }
   /* Footer */
   .waves {
     height: 11rem;
@@ -823,6 +839,43 @@ textarea {
     margin-bottom: 3rem;
   }
 
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hidden-container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .overlay a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-family: "Space Grotesk";
+    font-weight: 500;
+    transition: 0.35 ease;
+    border-bottom: 3px solid transparent;
+  }
+
+  .overlay a:hover,
+  .overlay a.active {
+    color: orange;
+    border-bottom: 3px solid orange;
+  }
+  /* Footer */
   .waves {
     height: 17rem;
   }
