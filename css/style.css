@@ -689,13 +689,17 @@ textarea {
   }
 
   .about-container img {
-    height: 430px;
+    height: 400px;
   }
 
   /* project */
 
   .project-container h2 {
     padding-top: 5rem;
+  }
+  /* Footer */
+  .waves {
+    height: 12rem;
   }
 }
 
@@ -743,7 +747,7 @@ textarea {
   /* Project */
   .project-interface {
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 10rem;
   }
 
   .project-container {
@@ -756,6 +760,6 @@ textarea {
   }
 
   .waves {
-    height: 19rem;
+    height: 17rem;
   }
 }
