@@ -293,7 +293,7 @@ header {
   /* height: 38rem; */
 }
 
-.project-container h2 {
+.project-title {
   text-align: center;
   font-family: "Space Grotesk";
   font-size: 3rem;
@@ -308,12 +308,74 @@ header {
   align-items: center;
   gap: 2rem;
 }
-
-.project-interface div {
+.card {
   width: 80%;
   height: 25rem;
   background-color: orange;
   border-radius: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-family: "Space Grotesk";
+  color: white;
+  padding-top: 0.4rem;
+  padding-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.project-icons {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.hidden-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden-container:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-family: "Space Grotesk";
+  font-weight: 500;
+  transition: 0.35 ease;
+  border-bottom: 3px solid transparent;
+}
+
+.overlay a:hover ,
+.overlay a.active {
+  color: orange;
+  border-bottom: 3px solid orange;
 }
 
 /* Footer */
@@ -490,7 +552,7 @@ textarea {
   .project-container {
     padding: 1rem;
   }
-  .project-container h2 {
+  .project-title {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
@@ -500,7 +562,7 @@ textarea {
     gap: 3rem;
   }
 
-  .project-interface div {
+  .card {
     width: 80%;
     height: 15rem;
   }
@@ -602,7 +664,7 @@ textarea {
     gap: 5rem;
   }
   /* Projects */
-  .project-interface div {
+  .card {
     width: 70%;
     height: 25rem;
     background-color: orange;
@@ -612,7 +674,7 @@ textarea {
   .project-container {
     padding: 1rem;
   }
-  .project-container h2 {
+  .project-title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
@@ -663,9 +725,6 @@ textarea {
     line-height: 1.5rem;
   }
 
-  .title-container p {
-  }
-
   /* main */
   .main-container {
     gap: 4rem;
@@ -694,7 +753,7 @@ textarea {
 
   /* project */
 
-  .project-container h2 {
+  .project-title {
     padding-top: 5rem;
   }
   /* Footer */
@@ -760,7 +819,7 @@ textarea {
     min-height: 0rem;
   }
 
-  .project-container h2 {
+  .project-title {
     margin-bottom: 3rem;
   }
 
