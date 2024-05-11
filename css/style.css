@@ -648,12 +648,12 @@ textarea {
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1444px) {
-
+  /* header */
   header {
     position: fixed;
     z-index: 2;
     background-color: #021024;
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 2rem 4rem 0rem 4rem;
   }
   .title-container {
     margin: 0;
@@ -666,15 +666,36 @@ textarea {
   .title-container p {
   }
 
+  /* main */
   .main-container {
-    gap: 2rem;
+    gap: 4rem;
     margin-top: 3rem;
     height: 35rem;
     margin: 0rem 0rem 0rem 0rem;
     position: relative;
     z-index: 1;
     padding-top: 2rem;
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 7rem 0rem 0rem 0rem;
+  }
+
+  /* about */
+  .sub-about-container {
+    margin: 0rem 2rem;
+    padding-top: 0rem;
+  }
+
+  .about-title {
+    padding-top: 6rem;
+  }
+
+  .about-container img {
+    height: 430px;
+  }
+
+  /* project */
+
+  .project-container h2 {
+    padding-top: 5rem;
   }
 }
 
@@ -692,7 +713,7 @@ textarea {
     margin: 0rem 0rem 0rem 0rem;
     position: relative;
     z-index: 1;
-    padding-top: 6rem;
+    padding-top: 8rem;
     margin-bottom: 2rem;
   }
 
@@ -736,6 +757,5 @@ textarea {
 
   .waves {
     height: 19rem;
-   
   }
 }
