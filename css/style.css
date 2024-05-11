@@ -699,7 +699,12 @@ textarea {
   }
   /* Footer */
   .waves {
-    height: 12rem;
+    height: 11rem;
+  }
+
+  .footer-container {
+    height: 27rem;
+    padding: 1rem;
   }
 }
 
