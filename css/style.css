@@ -532,6 +532,10 @@ textarea {
     padding: 2rem 2rem 3rem 2rem;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    background-color: #021024;
+    height: 0.7rem;
   }
   .nav-container {
     display: none;
@@ -539,6 +543,14 @@ textarea {
 
   .main-container {
     flex-direction: column-reverse;
+    position: relative;
+    z-index: 1;
+    padding-top: 5rem;
+  }
+
+  .main-container img {
+    width: 20rem;
+    height: 20rem;
   }
 
   .title-container {
@@ -669,6 +681,18 @@ textarea {
 
 @media only screen and (min-width: 429px) and (max-width: 1024px) {
   /* Header */
+
+  header {
+    position: fixed;
+    z-index: 2;
+    background-color: var(--Midnight-Blue);
+    padding: 2rem 3rem 0rem 3rem;
+  }
+
+  .main-container {
+    padding-top: 7rem;
+    z-index: 1;
+  }
   .nav-container {
     display: none;
   }
@@ -678,6 +702,7 @@ textarea {
     line-height: 1.2rem;
     text-align: center;
     gap: 1rem;
+    padding-top: 1rem;
   }
 
   .title-container p {
@@ -775,6 +800,19 @@ textarea {
     font-size: 1rem;
     border-bottom: 3px solid orange;
     margin-right: 1rem;
+  }
+
+  .menu-mobile.open {
+    width: 60%;
+  }
+
+  .menu-mobile nav ul {
+    text-align: center;
+    list-style: none;
+  }
+
+  .menu-mobile nav ul li a {
+    font-size: 25px;
   }
 
   /* Footer */
