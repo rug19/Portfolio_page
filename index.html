@@ -12,6 +12,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Framework js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
     <header >
@@ -48,7 +50,7 @@
     <main id="Home" class="main-container">
       <!--Right background-->
       <div class="right-background">
-        <div class="title-container">
+        <div class="title-container efect-txt-main">
           <h1>
             Nice to meet you!<br />
             I'm <span>Ruan Gomes.</span>
@@ -62,7 +64,7 @@
         </div>
       </div>
       <!-- photo -->
-      <div>
+      <div class="efect-img-main">
         <img src="img/image-profile-desktop.webp" alt="" />
       </div>
     </main>
@@ -163,9 +165,9 @@
     <!-- About Me -->
     <section id="About" class="about-container">
       <h2 class="about-title">About Me</h2>
-      <div class="sub-about-container">
+      <div class="sub-about-container efect-img-about">
          <img src="./img/image-profile-desktop.webp" alt="">
-       <div class="text-about">
+       <div class="text-about efect-txt-about">
         <h2>Hello! My name is, <span> Ruan Gomes.</span></h2>
         <p>I'm stepping into the exciting realm of technology. As a newcomer to this field, I'm eager to dive in and gain hands-on experience. 
         While I'm still in the process of developing my skills, I'm committed to mastering various essential technologies, including HTML, CSS, JavaScript, Bootstrap, React, MySQL, Node.js, 
@@ -186,7 +188,7 @@
       <h2 class="project-title">My Projects</h2>
       <div class="project-interface">
         <!-- First project -->
-        <div class="card">
+        <div class="card efect-card1">
           <div class="hidden-container">
             <img src="./design/desktop-preview.jpg" alt="desktop-preview">
             <div class="overlay">
@@ -201,7 +203,7 @@
           </div>
         </div>
         <!-- Second project -->
-          <div class="card">
+          <div class="card efect-card2">
             <div class="hidden-container">
               <img src="" alt="">
               <div class="overlay">
@@ -216,7 +218,7 @@
             </div>
           </div>
           <!-- Third project -->
-        <div class="card">
+        <div class="card efect-card3">
           <div class="hidden-container">
             <img src="" alt="">
             <div class="overlay">
@@ -235,7 +237,7 @@
     <!-- Footer -->
     <div class="waves"></div>
     <footer id="Contact" class="footer-container">
-      <h2>Contact - me</h2>
+      <h2 class="efect-txt-contact">Contact - me</h2>
     <div class="sub-footer-container">
       <div class="contact-container">
         <p>"Let's embark on a journey of collaboration, where our combined expertise, creativity, 
@@ -248,19 +250,20 @@
         <li><a target="_blank" href="https://github.com/rug19"><i class="fa-brands fa-square-github fa-2xl" style="color: #021024;"></i></a></li>
       </ul>
     </div>
-      <div class="message-container">
-        <input id="name" type="text" placeholder="Name" requered>
+    <form class="message-container" action="">
+      <input class="efect-input-name" id="name" type="text" placeholder="Name" requered>
         <label for="name"></label>
-        <input id="email" type="email" placeholder="Email" required >
+        <input class="efect-input-email" id="email" type="email" placeholder="Email" required >
         <label for="email"></label>
-        <textarea id="text" placeholder="Message" required></textarea>
+        <textarea class="efect-textarea-message" id="text" placeholder="Message" required></textarea>
         <label for="text"></label>
-        <button>Send Message</button>
-      </div>
+        <button class="efect-footer-button">Send Message</button>
+    </form>
     </div>
       <p>&copy;2024 Ruan Gomes | All Rights Reserved</p>
     </footer>
     <div class="background-wave-footer"></div>
     <script src="./script.js"></script>
+    <script src="reveal.js" defer></script>
   </body>
 </html>

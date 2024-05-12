@@ -21,6 +21,14 @@ body {
   background-color: #021024;
 }
 
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -55,7 +63,6 @@ header {
 .nav-container a.active {
   color: orange;
   border-bottom: 3px solid orange;
-  
 }
 
 /* Menu mobile style */
@@ -129,6 +136,26 @@ header {
   width: 100%;
   height: 100%;
   margin: 0rem 0rem 3rem 0rem;
+}
+
+.efect-txt-main,
+.efect-img-main,
+.skills-subTitle,
+.about-title,
+.project-title,
+.efect-card1,
+.efect-card2,
+.efect-card3,
+.efect-img-about,
+.efect-txt-about,
+.ctn-social,
+.efect-txt-contact,
+.contact-container,
+.efect-input-name,
+.efect-input-email,
+.efect-textarea-message,
+.efect-footer-button {
+  visibility: hidden;
 }
 
 .title-container {
@@ -789,7 +816,7 @@ textarea {
     padding: 2rem 4rem 0rem 4rem;
   }
 
-  header .open-menu  {
+  header .open-menu {
     display: none;
   }
   .title-container {
@@ -887,7 +914,7 @@ textarea {
     background-color: #021024;
   }
 
-  header .open-menu  {
+  header .open-menu {
     display: none;
   }
   /* Main */
