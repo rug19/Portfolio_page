@@ -549,8 +549,8 @@ textarea {
   }
 
   .main-container img {
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
   }
 
   .title-container {
@@ -585,6 +585,10 @@ textarea {
   .container-skills {
     height: 30%;
   }
+  .main-container-skills{
+    min-height: 100vh;
+    padding-top: 8rem;
+  }
 
   .skills-subTitle {
     font-size: 2rem;
@@ -597,12 +601,17 @@ textarea {
   .background-wave-bottom {
     height: 8rem;
   }
-  /* About ,me */
+  /* About me */
+
+  .about-container {
+    /* min-width: 100vh; */
+    padding-top: 5rem;
+  }
 
   .sub-about-container {
     flex-direction: column;
     margin: 0rem;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .sub-about-container img {
@@ -618,7 +627,7 @@ textarea {
 
   /* Project */
   .project-container {
-    padding: 1rem;
+    padding: 6rem 0rem 0rem 0rem;
   }
   .project-title {
     font-size: 2rem;
@@ -658,8 +667,8 @@ textarea {
 
   /* footer */
   .waves {
-    margin-top: 1rem;
-    height: 8rem;
+    margin-top: 2rem;
+    height: 4rem;
   }
   .footer-container {
     height: 50rem;
@@ -668,15 +677,16 @@ textarea {
   .footer-container h2 {
     margin: 0rem 0rem 2rem 0rem;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 6rem;
   }
 
   .sub-footer-container {
     flex-direction: column-reverse;
     margin: 0rem;
-    padding: 1rem;
-    gap: 3rem;
+    padding: 0rem 0rem 0rem 1rem;
+    gap: 2rem;
   }
+  
 }
 
 @media only screen and (min-width: 429px) and (max-width: 1024px) {
