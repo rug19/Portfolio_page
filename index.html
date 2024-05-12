@@ -23,11 +23,26 @@
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
       </nav>
-      <!-- <div>
-        <a href="https://github.com/rug19" target="_blank">
-          <i class="fa-brands fa-github fa-2xl" style="color: white"></i>
-        </a>
-        </div> -->
+      <div id="menu-button" class="open-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+       <!-- Menu-monile -->
+    <div id="menu-mobile" class="menu-mobile">
+      <div class="close-button">
+        <i class="fa-solid fa-x " style="color: #ffa500;"></i>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>  <!--menu mobile-->
+      <div id="overlay" class="overlay-menu">
+      </div>
     </header>
     <!-- Main container -->
     <main id="Home" class="main-container">
@@ -170,6 +185,7 @@
     <section id="Projects" class="project-container">
       <h2 class="project-title">My Projects</h2>
       <div class="project-interface">
+        <!-- First project -->
         <div class="card">
           <div class="hidden-container">
             <img src="./design/desktop-preview.jpg" alt="desktop-preview">
@@ -184,8 +200,36 @@
             <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2545db;"></i>
           </div>
         </div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <!-- Second project -->
+          <div class="card">
+            <div class="hidden-container">
+              <img src="" alt="">
+              <div class="overlay">
+                <a target="_blank" href="">VIEW PROJECT</a>
+                <a target="_blank" href="">VIEW CODE</a>
+              </div>
+            </div>
+            <h2 class="card-title"> NEW PROJECT</h2>
+            <div class="project-icons">
+              <!-- <i class="fa-brands fa-html5 fa-2xl" style="color: #e4552c;"></i>
+              <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2545db;"></i> -->
+            </div>
+          </div>
+          <!-- Third project -->
+        <div class="card">
+          <div class="hidden-container">
+            <img src="" alt="">
+            <div class="overlay">
+              <a target="_blank" href="">VIEW PROJECT</a>
+              <a target="_blank" href="">VIEW CODE</a>
+            </div>
+          </div>
+          <h2 class="card-title"> NEW PROJECT</h2>
+          <div class="project-icons">
+            <!-- <i class="fa-brands fa-html5 fa-2xl" style="color: #e4552c;"></i>
+            <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2545db;"></i> -->
+          </div>
+        </div>
       </div>
     </section>
     <!-- Footer -->

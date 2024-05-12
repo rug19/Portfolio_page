@@ -55,6 +55,72 @@ header {
 .nav-container a.active {
   color: orange;
   border-bottom: 3px solid orange;
+  
+}
+
+/* Menu mobile style */
+.open-menu i {
+  color: orange;
+  font-size: 30px;
+}
+.menu-mobile {
+  background-color: var(--Midnight-Blue);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  width: 0%;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.menu-mobile nav ul {
+  text-align: right;
+  list-style: none;
+}
+
+.menu-mobile nav ul li a {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  font-family: "Space Grotesk";
+  display: block;
+  padding: 20px 10%;
+}
+
+.menu-mobile.open {
+  width: 70%;
+}
+
+.menu-mobile.open ~ .overlay-menu {
+  display: block;
+}
+
+.menu-mobile nav ul li a:hover {
+  background-color: orange;
+  cursor: pointer;
+  color: var(--Midnight-Blue);
+}
+
+.overlay-menu {
+  background-color: #0000009f;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 88888;
+  display: none;
+}
+
+.menu-mobile .close-button {
+  padding: 20px 5%;
+}
+
+.menu-mobile .close-button i {
+  font-size: 30px;
 }
 .main-container {
   display: flex;
@@ -436,9 +502,9 @@ textarea {
 @media (max-width: 428px) {
   /* Header */
   header {
-    padding: 2rem 6rem 3rem 6rem;
+    padding: 2rem 2rem 3rem 2rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
   .nav-container {
     display: none;
@@ -722,6 +788,10 @@ textarea {
     background-color: #021024;
     padding: 2rem 4rem 0rem 4rem;
   }
+
+  header .open-menu  {
+    display: none;
+  }
   .title-container {
     margin: 0;
   }
@@ -815,6 +885,10 @@ textarea {
     position: fixed;
     z-index: 2;
     background-color: #021024;
+  }
+
+  header .open-menu  {
+    display: none;
   }
   /* Main */
   .main-container {
