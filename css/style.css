@@ -1006,7 +1006,7 @@ textarea {
   /* Project */
   .project-interface {
     padding-top: 3rem;
-    padding-bottom: 10rem;
+    padding-bottom: 11rem;
   }
 
   .project-container {
@@ -1016,6 +1016,10 @@ textarea {
 
   .project-title {
     margin-bottom: 3rem;
+  }
+
+  .card {
+    height: 25rem;
   }
 
   .overlay {
@@ -1057,5 +1061,9 @@ textarea {
   /* Footer */
   .waves {
     height: 17rem;
+  }
+
+  .footer-container {
+    height: 30rem;
   }
 }
