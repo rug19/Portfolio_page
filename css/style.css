@@ -403,7 +403,7 @@ header {
 }
 .card {
   width: 80%;
-  height: 25rem;
+  height: 22rem;
   background-color: orange;
   border-radius: 1rem;
 }
@@ -516,8 +516,9 @@ header {
 
 .footer-container p:last-child {
   text-align: center;
-  margin-top: 3rem;
   font-family: "Space Grotesk";
+  position: relative;
+  top: 5rem;
 }
 
 .message-container input,
@@ -585,7 +586,7 @@ textarea {
   .container-skills {
     height: 30%;
   }
-  .main-container-skills{
+  .main-container-skills {
     min-height: 100vh;
     padding-top: 8rem;
   }
@@ -686,7 +687,6 @@ textarea {
     padding: 0rem 0rem 0rem 1rem;
     gap: 2rem;
   }
-  
 }
 
 @media only screen and (min-width: 429px) and (max-width: 1024px) {
@@ -903,8 +903,12 @@ textarea {
 
   /* project */
 
+  .ptoject-container {
+    padding: 1rem;
+  }
   .project-title {
-    padding-top: 5rem;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
   }
 
   .overlay {
@@ -949,7 +953,7 @@ textarea {
   }
 
   .footer-container {
-    height: 27rem;
+    height: 29rem;
     padding: 1rem;
   }
 }

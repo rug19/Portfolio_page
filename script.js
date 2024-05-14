@@ -1,4 +1,4 @@
-// Menu mobile
+// Menu mobile e tablet 
 
 let menuButton = document.getElementById('menu-button');
 let menu = document.getElementById('menu-mobile');
