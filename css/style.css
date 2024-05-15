@@ -154,7 +154,8 @@ header {
 .efect-input-name,
 .efect-input-email,
 .efect-textarea-message,
-.efect-footer-button {
+.efect-footer-button,
+.footer-icons {
   visibility: hidden;
 }
 

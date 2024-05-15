@@ -80,12 +80,21 @@ revelar.reveal(".efect-txt-about", {
 
 // SESSÃO FOOTER
 
-revelar.reveal(".contact-container", {
+revelar.reveal(".pararaph-footer", {
   duration: 1000,
   distance: "90px",
   delay: 1000,
   origin: "bottom",
 });
+
+revelar.reveal(".footer-icons", {
+  duration: 1000,
+  distance: "90px",
+  delay: 1500,
+  origin: "bottom",
+});
+
+
 revelar.reveal(".efect-input-name", {
   duration: 1000,
   distance: "90px",
