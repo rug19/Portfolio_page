@@ -885,7 +885,31 @@ textarea {
     position: relative;
     z-index: 1;
     padding-top: 2rem;
-    padding: 7rem 0rem 0rem 0rem;
+    padding: 4rem 0rem 0rem 0rem;
+  }
+
+  /* Skill */
+
+  .main-container-skills {
+    min-width: 1rem;
+  }
+  .background-wave-top{
+    height: 14rem;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .container-skills {
+    position: relative;
+    bottom: 2rem;
+    z-index: 2;
+  }
+
+  .background-wave-bottom {
+    height: 19rem;
+    position: relative;
+    bottom: 5rem;
+    z-index: 1;
   }
 
   /* about */
