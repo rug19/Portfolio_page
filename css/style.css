@@ -527,6 +527,15 @@ textarea {
   padding: 0.5rem;
 }
 
+@media (max-width: 360px) {
+  .message-container input {
+    width: 90%;
+  }
+
+  .message-container textarea {
+    width: 90%;
+  }
+}
 @media (max-width: 428px) {
   /* Header */
   header {
@@ -672,7 +681,7 @@ textarea {
     height: 4rem;
   }
   .footer-container {
-    height: 50rem;
+    height: 55rem;
     padding: 0rem;
   }
   .footer-container h2 {
