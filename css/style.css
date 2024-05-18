@@ -17,13 +17,12 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #021024;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita scroll horizontal */
 }
-
-/* body::-webkit-scrollbar {
-  display: none;
-} */
 
 html {
   scroll-behavior: smooth;
@@ -529,6 +528,9 @@ textarea {
 }
 
 @media (max-width: 360px) {
+  header {
+    width: 100%;
+  }
   .message-container input {
     width: 90%;
   }
@@ -902,7 +904,7 @@ textarea {
   .main-container-skills {
     min-width: 1rem;
   }
-  .background-wave-top{
+  .background-wave-top {
     height: 14rem;
     position: relative;
     bottom: 2rem;
