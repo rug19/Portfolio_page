@@ -1,3 +1,5 @@
+
+
 // Menu mobile e tablet
 
 let menuButton = document.getElementById("menu-button");
@@ -22,5 +24,3 @@ menu.addEventListener("click", () => {
 overlay.addEventListener("click", () => {
   menu.classList.remove("open");
 });
-
-
