@@ -24,6 +24,10 @@ html {
   overflow-x: hidden; /* Evita scroll horizontal */
 }
 
+body {
+  background-color: var(--Midnight-Blue);
+}
+
 html {
   scroll-behavior: smooth;
 }
