@@ -90,7 +90,7 @@ revelar.reveal(".pararaph-footer", {
 revelar.reveal(".footer-icons", {
   duration: 1000,
   distance: "90px",
-  delay: 1000,
+  delay: 500,
   origin: "bottom",
 });
 
@@ -105,19 +105,19 @@ revelar.reveal(".efect-input-name", {
 revelar.reveal(".efect-input-email", {
   duration: 1000,
   distance: "90px",
-  delay: 900,
+  delay: 300,
   origin: "bottom",
 });
 revelar.reveal(".efect-textarea-message", {
   duration: 1000,
   distance: "90px",
-  delay: 1200,
+  delay: 350,
   origin: "bottom",
 });
 
 revelar.reveal(".efect-footer-button", {
   duration: 1000,
   distance: "90px",
-  delay: 1500,
+  delay: 400,
   origin: "bottom",
 });
